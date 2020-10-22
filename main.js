@@ -6,7 +6,9 @@ function changeColor() {
   const colorChangeEls = $('.color-change');
 
   for (const el of colorChangeEls) {
-    $(el).toggleClass('hide');
+    // $(el).toggleClass('hide');
+    $(el).css("color", "red");
+    
   }
 }
 
